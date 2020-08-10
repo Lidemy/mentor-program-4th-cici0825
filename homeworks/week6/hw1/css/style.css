@@ -1,0 +1,285 @@
+/* ________________base____________________ */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”,
+        “Microsoft JhengHei”, Roboto, “Helvetica Neue”, Arial, sans-serif;
+    line-height: 1.5;
+
+}
+
+.center-wrap {
+    margin-right: 96px;
+    margin-left: 96px;
+}
+
+a,
+li,
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.1;
+
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    letter-spacing: 0.32px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+/* ________________base end____________________ */
+
+/* __________utililtes_start __________ */
+
+.m-auto {
+    margin: 0 auto;
+}
+
+/* flex */
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-jcb {
+    justify-content: space-between;
+}
+
+.flex-jcc {
+    justify-content: center;
+}
+
+.flex-aic {
+    align-items: center;
+}
+
+.flex-ais {
+    align-items: start;
+}
+
+/* margin padding */
+
+
+.mr-23px {
+    margin-right: 23px;
+}
+
+.mt-20px {
+    margin-top: 20px;
+}
+
+.mb-20px {
+    margin-bottom: 20px;
+}
+
+.mb-40px {
+    margin-bottom: 40px;
+
+}
+
+.mb-80px {
+    margin-bottom: 80px;
+}
+
+.mb-100px {
+    margin-bottom: 100px;
+}
+
+.mb-120px {
+    margin-bottom: 120px;
+}
+
+.pt-40px {
+    padding: 40px;
+}
+
+
+/* border */
+
+.bd-left {
+    border-left: 10px solid #a3dea2;
+    padding-left: 17px;
+}
+
+/* bgcolor*/
+
+.bgcolor-yellow {
+    background: #f9f9b5;
+}
+
+.bgcolor-blueGreen {
+    background: #a8e8e1;
+}
+
+.bgcolor-whiteGreen {
+    background: #e8efee;
+}
+
+.bgcolor-darkGreen {
+    background: #35564b;
+}
+
+/* text */
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font-62 {
+    font-size: 62px;
+}
+
+.text_black {
+    color: black;
+}
+
+.text-green {
+    color: #489846;
+}
+
+.text-drakgreen {
+    color: #3e613d;
+}
+
+
+.text-white {
+    color: rgb(255, 255, 255);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* __________utililtes_start end__________ */
+
+/* __________header__________ */
+
+.header-menu_item a {
+    color: #000;
+    margin-right: 10px;
+    padding: 14px 25px 14px 25px;
+}
+
+.header-menu_item a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    background: #ff7286;
+    border-radius: 8px;
+}
+
+.header-menu_item_active:link {
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    background: #ff7286;
+    border-radius: 8px;
+}
+
+/* __________header end__________ */
+/* __________banner __________ */
+
+.banner-block {
+    height: 580px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/2@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* __________banner end __________ */
+/* __________lightfood __________ */
+
+.lightfood-text li {
+    margin-bottom: 21px;
+}
+
+.lightfood-bouttom li {
+
+    padding: 64px 80px 64px 80px;
+    border-radius: 10px;
+}
+
+/* __________lightfood end __________ */
+/* __________ news __________ */
+.news-alumn_item {
+    max-width: 481px;
+    max-height: 481px;
+}
+
+/* __________ news end __________ */
+
+/* __________ recommend __________ */
+
+.recommend-people_item {
+    position: relative;
+    text-align: center;
+    padding: 50px 25px 45px 25px;
+    border: 1px solid #c7e5ec;
+    box-shadow: -1.4px -1.4px 4px 0 rgb(237, 237, 237);
+    margin-right: 16px;
+
+}
+
+.recommend-people_item:last-child {
+    margin-right: 0;
+}
+
+.recommend-people_item p {
+    margin-top: 10px;
+    max-width: 516px;
+}
+
+.recommend-people_item img {
+    position: absolute;
+    top: -60px;
+}
+
+/* __________ recommend end __________ */
+
+/* __________ footer__________ */
+.footer-copyright{
+    padding: 16px;
+}
+
+/* __________ footer__________ */
