@@ -1,0 +1,149 @@
+body {
+    background: #f7f7f7;
+
+}
+
+.warning {
+    font-size: 12px;
+    text-align: center;
+    background: #ffc4c6;
+    color: #a20606;
+    padding: 10px;
+}
+
+
+.board {
+    background: white;
+    max-width: 600px;
+    /* width: 100%; */
+    margin: 0 auto;
+    box-shadow: 1px 1px 3px #e8e8e8;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.board__title {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.board__new-comment-form textarea {
+    letter-spacing: .5px;
+    padding: 5px;
+    border: 1px solid #c2dffb;
+    width: 95%;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* 
+.board__nickname input {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: .5px;
+    border: 1px solid #c2dffb;
+    padding: 5px;
+} */
+.board__basic input {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: .5px;
+    border: 1px solid #c2dffb;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: rgb(191, 61, 61);
+    margin-bottom: 10px;
+}
+
+.board__btn {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #c2dffb;
+    border-radius: 5px;
+    color: #583c63;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding: 10px 12px 10px 12px;
+    text-decoration: none;
+}
+
+.board__submit-btn {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #c2dffb;
+    border-radius: 5px;
+    color: #583c63;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+
+.board__submit-btn:hover {
+    background: #c2dffb;
+    transition: .6s;
+}
+
+.board__hr {
+    margin: 20px auto;
+    height: 1px;
+    background: #e8e8e8;
+    max-width: 100%;
+}
+
+.card {
+    margin: 20px 0;
+    min-height: 70px;
+    padding-bottom: 14px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.card__avatar {
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e4f0fb;
+}
+
+.card__body {
+    margin-left: 10px;
+
+}
+
+.card__content {
+    word-break: break-all;
+    white-space: pre-line;
+    line-height: 1.2;
+    max-width: 95%;
+    width: 100%;
+    margin-top: 5px;
+    color: rgb(69, 69, 69);
+}
+
+.card__author {
+    font-weight: bold;
+    color: #5c9edc;
+}
+
+.card__time {
+    font-style: italic;
+    color: #a0a0a0;
+    font-size: 13.5px;
+}
+
+.board__sign {
+    margin-bottom: 30px;
+}
+
+.board__sayHi {
+
+    margin-top: 30px;
+}
