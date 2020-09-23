@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>新拖延運動報名表單</title>
+</head>
+
+<body>
+
+    <div class="wrap m-auto">
+        <form action="" class="form bg-white mt-120px mb-66px">
+            <header class="from-header ">
+                <h1 class="form-header_title font-36px mb-35px">新拖延運動報名表單</h1>
+                <ul class="form-header_subtitle font-14px mb-22px">
+                    <li class="mb-11px">活動日期：2020/12/10 ~ 2020/12/11</li>
+                    <li>活動地點：台北市大安區新生南路二段1號</li>
+                </ul>
+                <h2 class="remind text-red font-16px mb-55px">必填</h2>
+            </header>
+
+            <main>
+                <div class="name mb-50px fillIn-block hide-error">
+                    <h3>暱稱</h3>
+                    <input class="fillIn-box" name="nickname" type="text" placeholder="您的回答">
+                    <div class="fillIn-box_error">
+                        請輸入暱稱
+                    </div>
+                </div>
+
+                <div class="email mb-50px fillIn-block hide-error">
+                    <h3>電子郵件</h3><input class="fillIn-box" name="email" type="text" placeholder="您的電子郵件">
+                    <div class="fillIn-box_error">
+                        請輸入電子郵件
+                    </div>
+                </div>
+
+                <div class="phoneNumber mb-50px fillIn-block hide-error">
+                    <h3>手機</h3><input class="fillIn-box" name="phoneNumber" type="text" placeholder="您的手機號碼">
+                    <div class="fillIn-box_error">
+                        請輸入手機號碼
+                    </div>
+                </div>
+                <div class="type mb-50px fillIn-block hide-error">
+                    <h3>報名類型</h3>
+                    <li class="mb-22px">
+                        <input type="radio" name="wd" value="1"><label for="title1">躺在床上用想像力實作</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="wd" value="2"><label for="title2"> 趴在地上滑手機找現成的</label>
+                    </li>
+                    <div class="fillIn-box_error">
+                        請選擇報名類型
+                    </div>
+                </div>
+                <div class="howKnew mb-50px fillIn-block hide-error">
+                    <h3>怎麼知道這個活動的？</h3><input name="howKnew" class="fillIn-box" type="text" placeholder="您的回答">
+                    <div class="fillIn-box_error">
+                        請輸入您的回答
+                    </div>
+                </div>
+                <div class="others mb-55px fillIn-block hide-error">
+                    <h3>其他</h3>
+                    <p class="font-14px mb-35px">對活動的一些建議</p>
+                    <input class="fillIn-box" name="recommend" type="text" placeholder="您的回答">
+                    <div class="fillIn-box_error">
+                        請輸入您的回答
+                    </div>
+                </div>
+                <div class="sendOut">
+                    <input class="submit-box bg-yellow mb-22px" type="submit" value="送出">
+                    <p class="font-14px">請勿透過表單送出您的密碼。</p>
+                </div>
+
+            </main>
+        </form>
+    </div>
+    <footer class="footer">
+        <h6 class="footer-copyright text-center bg-dark text-white font-14px">© 2020 © Copyright. All rights Reserved.
+        </h6>
+    </footer>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
