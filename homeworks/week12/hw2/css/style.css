@@ -1,0 +1,59 @@
+* {
+    line-height: 1.2;
+    
+}
+
+.todo-wrap {
+    min-height: 1000px;
+}
+
+.mtb-10{
+    margin-top: 100px;
+}
+.unfinished-todo{
+    margin-right: 7px;
+}
+
+.todo-input-err{
+    display: none;
+    color:#4bbf73;
+}
+.color-changed{
+    font-size: 18px;
+    text-decoration:line-through;
+}
+
+/* .hide{
+    display: none !important;
+} */
+
+.bg-images {
+    background: url(../img/pexels-pixabay-158771.jpg);
+    background-position:  center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+/* .bg-transparency{
+    background: rgba(255, 255, 255, 0.249);
+} */
+.todo-list_item-bottom {
+    word-break: break-all;
+}
+
+.todo-delete {
+    cursor: pointer;
+}
+.todo-done {
+    cursor: pointer;
+}
+.todo-save{
+    cursor: pointer;
+}
+
+.todo-save:hover {
+    color:darkgreen;
+}
+.todo-status-item{
+    text-decoration: none;
+}
