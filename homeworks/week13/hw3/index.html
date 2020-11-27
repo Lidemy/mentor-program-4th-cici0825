@@ -646,6 +646,7 @@
 
 
     <script>
+
         const API_URL = 'https://api.twitch.tv/kraken';
         const CLIENT_ID = 'gw1hr6fwynv346eq4zizlgz3ndwy3h';
         const STREAM_TEMPLATE = `
@@ -712,7 +713,6 @@
             }).then(resGetGames => {
                 return resGetGames.json()
             }).then(rspGetGames => callback(rspGetGames.top))
-
 
         }
 
